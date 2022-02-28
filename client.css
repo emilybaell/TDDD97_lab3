@@ -1,0 +1,304 @@
+body { 
+    background-color: lightskyblue;
+    /*box-align: center;*/
+}
+
+#finbild{
+    float: left;
+    width: 340px;
+    border-style: solid;
+    border-width: 2px;
+    height: 400px;
+    object-fit: fill;
+
+}
+
+#bb {
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+#login {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 86px; 
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    
+}
+h1{
+    text-align: center;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#signup {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    height: 300px;
+
+}
+
+#signup_form {
+    font-size: 12pt;
+    display: flex;
+    justify-content: center; 
+
+}
+    
+h2{
+    text-align: center;
+    
+}
+#h2home{
+    text-align: left;
+    margin-left: 40px;
+}
+#h2browse, #accounth2{
+    text-align: left;
+    color: whitesmoke;
+    
+}
+h3{
+    text-align: center;  
+}
+#bonjour{
+    color: tomato;
+    
+}
+
+
+#makespace {
+    float: left;
+    clear: left;
+    margin-left: 10px;
+    height: 400px;
+    width: 250px;
+    
+}
+
+form {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+input[type="text"], input[type="email"], select{
+    width: 60%;
+    float: right;
+    clear: right;
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    
+}
+
+.btn{
+
+    clear: right;
+    float: right;
+    
+    width: auto;
+}
+
+
+.tab-button{
+    border-style: none;
+    height: 100%;
+    width: 100px;
+    background-color: rgb(240, 235, 235);
+    
+}
+.tab-button:hover{
+    background-color: rgba(163, 48, 163, 0.945);
+} 
+.tab-button:focus{
+    background-color: plum;
+}
+.tabBar{
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height: 40px; 
+    width:fit-content;
+}
+
+#Home {
+    display:block;
+    justify-content: center;
+}
+
+#Browse{
+    display: none;
+    
+}
+
+#Account{
+    display: none;
+}
+
+#acc_group{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 40px;
+    
+}
+
+
+#SignOut{
+    width: fit-content;
+    height: fit-content;
+}
+
+#SignOutBox{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    clear: both;
+    /* float: left;
+    clear: left; */
+}
+
+
+#change_password{
+    /* float: left; */
+    clear: both;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    width: 400px;
+    height: fit-content;
+}
+#profwrite{
+    height: 300px;
+    width: 406px; 
+    float: left;
+    margin-left: 40px;
+}
+
+#infobox{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    width: 400px;
+    height: fit-content;
+    float: left;
+}
+
+#writingbox{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    width: 400px;
+    height: fit-content;
+    float: left;
+    clear: left;
+}
+.postText{
+    background-color: white;
+    width: 90%;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#postbox{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    width: 400px;
+    height: fit-content;
+    float: left;
+    
+    margin-left: 40px;
+}
+#wall{
+    float: left;
+}
+
+#update_wall{
+    margin-top: 5px;
+    float: right;
+}
+#wall_title{
+    width: fit-content;
+    display: flex;
+    text-align: center;
+   
+}
+
+#wall_messages{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#wall_messagesBrowse{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#searchbox{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    width: 400px;
+    height: fit-content;
+    
+}
+#Browse.tabs{
+    width: 406px;
+    margin-left: 40px;
+}
+
+
+#browsebox{
+    display: none;
+    float: left;
+    width: 900px;
+}
+
+#message_field {
+    visibility: hidden;
+    min-width: 250px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    border: 2px;
+    padding: 16px;
+    position: fixed;
+    font-size: 17px;
+
+}
+
+#messagebox {
+    display: flex;
+    justify-content: center;
+}
+  
+#message_field.show {
+    visibility: visible;
+  
+}
+
